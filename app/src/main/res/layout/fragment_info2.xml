@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".SubTab.InfoTab.InfoFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/t1"
+            android:textSize="20dp"
+            android:layout_marginBottom="5dp"
+
+            android:text="  위치\n제1학생회관 1층 학생식당(사범대 맞은편)\n\n운영시간\n1) 평일 - 08:30 ~ 19:00/토요일 - 11:30 ~ 14:30\n\n전화번호: 053-851-5807"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+<ImageView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/i1"
+    android:layout_below="@+id/t1"
+    android:src="@drawable/map_o"/>
+
+
+        </RelativeLayout>
+</ScrollView>

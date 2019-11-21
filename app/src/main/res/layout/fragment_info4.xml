@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".SubTab.InfoTab.InfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:id="@+id/t1"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="left"
+        android:text="위치\n비호생활관 식당(웰리앤 카페테리아)2층\n\n운영시간\n1) 평일 : 7:30 ~ 19:00\n주말 : 08:00 ~ 18:30\n\n전화번호 : 053-851-9672"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_below="@id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/map_ki"/>
+
+
+</RelativeLayout>

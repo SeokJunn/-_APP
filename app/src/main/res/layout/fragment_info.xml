@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".SubTab.InfoTab.InfoFragment">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/t1"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="  위치\n동편학생복지관 1층 학생식당(재활과학대학 맞은편/ 공대 옆 건물)\n\n운영시간\n1) 학기중 : 평일 - 08:00 ~ 19:30 /
+     토요일 - 10:30 ~ 15:00\n2) 방학중 : 평일 - 08:30 ~ 19:00 /토요일 - 10:30 ~ 15:00 \n*시험기간 중 연장운영 / 일요일 휴무 \n\n전화번호\n1) 053-851-8002 \n2) 010-2978-1006"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_below="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/map_bok"/>
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--하나의 레이아웃 파일 custom_layout.xml을 만들어서 imageViewPager에서 단일 항목의 모양을 표시합니다./-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageView" />
+    <!--이거 드가 있을땐 에러떴는데 이거 빼니깐 에러 안뜸
+    app:srcCompat="@mipmap/ic_launcher"/-->
+</LinearLayout>

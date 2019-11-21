@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".SubTab.InfoTab.InfoFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:id="@+id/t1"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="위치\n동편복지관2층(재과대 맞은편 / 공대 옆)\n\n운영시간\n1) 조식 : 08:30 ~ 11:00 /중 식 : 11:30 ~ 14:00\n전화번호 : 053-850-5989
+        \n공지사항\n*시장사정에 따라 메뉴가 달라질 수 있습니다!!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_below="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/map_bok"/>
+
+
+    </RelativeLayout>
+</ScrollView>
